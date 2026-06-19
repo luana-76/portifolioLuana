@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio - Luana Maria</title>
+    <link rel="icon" type="image/x-icon" href="./imagens/borboletaIcon.png">
+    <link rel="stylesheet" href="./css/estiloPrincipal.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header role="banner">
+
+        <nav class="listaInternaNav" aria-label="Navegação principal">
+
+            <ul>
+                <li>
+                    <button
+                        id="iconeLista"
+                        aria-label="Abrir menu de navegação"
+                        aria-expanded="false"
+                        aria-controls="menuPrincipal"
+                    >
+                        <img src="./imagens/dropDownList.png" alt="" aria-hidden="true"/>
+                    </button>
+                </li>
+                <div class="parteAbaixa" id="menuPrincipal" role="list">
+
+                    <li class="liMarcado" role="listitem"><a href="#inicio" id="marcador" aria-current="page">INICIO</a></li>
+                    <li role="listitem"><a href="#secaoSobreMim">SOBRE MIM</a></li>
+                    <li role="listitem"><a href="#projetos">PROJETOS</a></li>
+                    <li role="listitem"><a href="#cursos">CURSOS</a></li>
+
+
+                </div>
+                
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <main id="conteudoPrincipal">
+
+        <!-- Seção Hero / Início -->
+        <section class="foco" id="inicio" aria-labelledby="nomeHero">
+
+            <blockquote class="fraseEfeito" cite="">
+                <p>O estudo abre as portas<br>para o sucesso.</p>
+            </blockquote>
+
+            <div class="focoInicial">
+                <h1 id="nomeHero">OI, EU SOU LUANA!</h1>
+                <img src="./imagens/personagem.png" alt="Ilustração de Luana Maria"/>
+            </div>
+
+            <address class="linkContatos" aria-label="Contatos de Luana Maria">
+
+                <div class="bola">
+                    <a href="mailto:luanamaria2003@hotmail.com" aria-label="Enviar e-mail para Luana Maria">
+                        <img width="35" src="https://img.icons8.com/sf-black-filled/35/secured-letter.png" alt="" aria-hidden="true"/>
+                    </a>
+                </div>
+                <div class="bola">
+                    <a href="https://www.linkedin.com/in/luanamaria-dev" aria-label="Perfil de Luana no LinkedIn" target="_blank" rel="noopener noreferrer">
+                        <img width="35" src="https://img.icons8.com/windows/35/linkedin-2.png" alt="" aria-hidden="true"/>
+                    </a>
+                </div>
+                <div class="bola">
+                    <a href="tel:+5581996189402" aria-label="Ligar para Luana Maria">
+                        <img width="35" src="https://img.icons8.com/ios-filled/50/phone-disconnected.png" alt="" aria-hidden="true"/>
+                    </a>
+                </div>
+
+            </address>
+
+        </section>
+
+        <!-- Seção Sobre Mim -->
+        <section class="sobreMim" id="secaoSobreMim" aria-labelledby="tituloSobreMim">
+
+            <div class="imgFlores" aria-hidden="true">
+                <img src="./imagens/fundoSobreMim.png" alt=""/>
+                <img src="./imagens/fundoSobreMim.png" alt=""/>
+            </div>
+
+            <div class="textoSobreMim">
+                <h2 id="tituloSobreMim">SOBRE MIM</h2>
+                <p>Sou estudante de Engenharia de Software, com foco em desenvolvimento full stack e interesse constante em aprender novas tecnologias. Possuo formação complementar pelo Proa e pelo Transforme-se (Serasa), além de cursos na Udemy, Alura, Cisco e na DIO.
+                Atualmente, atuo como Jovem Aprendiz na G4F, onde aplico meus conhecimentos na prática e sigo evoluindo profissionalmente. Valorizo o trabalho em equipe, o respeito mútuo e acredito na importância da diversidade e inclusão para a construção de ambientes colaborativos e inovadores.</p>
+            </div>
+            
+            <div class="imgFlores" aria-hidden="true">
+                <img src="./imagens/fundoSobreMim.png" alt=""/>
+                <img src="./imagens/fundoSobreMim.png" alt=""/>
+            </div>
+
+        </section>
+
+        <!-- Seção Projetos -->
+        <section class="secaoProjeto" id="projetos" aria-labelledby="tituloProjetos">
+
+            <h2 class="tituloSecao" id="tituloProjetos">PROJETOS</h2>
+
+            <ul class="listaProjetos" role="list">
+
+                <li class="projeto">
+                    <div class="info">
+                        <div>
+                            <h3>AUTOCAR</h3>
+                            <p class="info-instituicao">PROA</p>
+                        </div>
+                        <a class="botaoVerProjeto" href="https://github.com/luana-76/autoCar/tree/master" target="_blank" rel="noopener noreferrer" aria-label="Ver projeto AutoCar no GitHub">VER PROJETO</a>
+                    </div>
+
+                    <figure class="preview">
+                        <img src="./imagens/projeto1.png" alt="Captura de tela do projeto AutoCar"/>
+                    </figure>
+                </li>
+
+                <li class="projeto">
+                    <div class="info">
+                        <div>
+                            <h3>Conexão Aprendiz</h3>
+                            <p class="info-instituicao">G4F</p>
+                        </div>
+                        <a class="botaoVerProjeto" href="https://conexao-aprendiz.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Ver projeto Conexão Aprendiz">VER PROJETO</a>
+                    </div>
+
+                    <figure class="preview">
+                        <img src="https://framerusercontent.com/images/KxCGvHrugQWXfjN6yztHZcQOz8U.png?width=2190&height=1873" alt="Captura de tela do projeto Conexão Aprendiz"/>
+                    </figure>
+                </li>
+
+                <li class="projeto">
+                    <div class="info">
+                        <div>
+                            <h3>Nordflix</h3>
+                            <p class="info-instituicao">Senac</p>
+                        </div>
+                        <a class="botaoVerProjeto" href="https://github.com/luana-76/Nordflix" target="_blank" rel="noopener noreferrer" aria-label="Ver projeto Nordflix no GitHub">VER PROJETO</a>
+                    </div>
+
+                    <figure class="preview">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPm-ayhSQklnzm722eFXOjnabIGG_6OP0CNg&s" alt="Captura de tela do projeto Nordflix"/>
+                    </figure>
+                </li>
+
+            </ul>
+
+        </section>
+
+        <!-- Seção Cursos -->
+        <section id="cursos" aria-labelledby="tituloCursos">
+
+            <canvas id="particles" aria-hidden="true"></canvas>
+
+            <h2 class="tituloCursos" id="tituloCursos">CURSOS</h2>
+
+            <ul class="gradeCursos" role="list">
+
+                <li class="cursoCard" role="listitem">
+                    <article class="conteudoCard">
+                        <h3>Engenharia de Software</h3>
+                        <dl>
+                            <dt class="sr-only">Instituição</dt>
+                            <dd><span>Instituição: Faculdade Unicesumar</span></dd>
+                            <dt class="sr-only">Período</dt>
+                            <dd><span>Período: 2023 – Interrompido</span></dd>
+                        </dl>
+                        <p>
+                            Formação focada em desenvolvimento de software, arquitetura de sistemas,
+                            banco de dados e metodologias ágeis.
+                        </p>
+                    </article>
+                </li>
+
+                <li class="cursoCard" role="listitem">
+                    <article class="conteudoCard">
+                        <h3>Formação Fullstack</h3>
+                        <dl>
+                            <dt class="sr-only">Instituição</dt>
+                            <dd><span>Instituição: PROA</span></dd>
+                            <dt class="sr-only">Período</dt>
+                            <dd><span>Período: 2024</span></dd>
+                        </dl>
+                        <p>
+                            Curso fullstack desenvolvido em conjunto com o Senac, onde desenvolvemos um projeto
+                            chamado nuhCorre.
+                        </p>
+                    </article>
+                </li>
+
+                <li class="cursoCard" role="listitem">
+                    <article class="conteudoCard">
+                        <h3>Front-end</h3>
+                        <dl>
+                            <dt class="sr-only">Instituição</dt>
+                            <dd><span>Instituição: Transforme-se (Serasa)</span></dd>
+                            <dt class="sr-only">Período</dt>
+                            <dd><span>Período: 2025</span></dd>
+                        </dl>
+                        <p>
+                            Curso front desenvolvido em conjunto com o Senac, onde desenvolvemos um projeto
+                            chamado Conny.
+                        </p>
+                    </article>
+                </li>
+
+            </ul>
+
+        </section>
+
+    </main>
+
+    <script>
+
+        const links = document.querySelectorAll(".listaInternaNav a");
+        const liListas = document.querySelectorAll(".listaInternaNav li");
+
+        // Lidando com marcação de link ativo
+        links.forEach((link) => {
+            link.addEventListener("click", (event) => {
+
+                links.forEach(l => {
+                    l.removeAttribute("id");
+                    l.removeAttribute("aria-current");
+                });
+                liListas.forEach(l => l.removeAttribute("class"));
+
+                event.currentTarget.parentElement.setAttribute("class", "liMarcado");
+                event.currentTarget.setAttribute("id", "marcador");
+                event.currentTarget.setAttribute("aria-current", "page");
+            });
+        });
+
+        // DropDown de lista — agora usando <button> com aria-expanded
+        const btnMenu = document.getElementById("iconeLista");
+        const menu = document.getElementById("menuPrincipal");
+
+        btnMenu.addEventListener("click", () => {
+            const aberto = menu.classList.toggle("ativa");
+            btnMenu.setAttribute("aria-expanded", aberto ? "true" : "false");
+        });
+
+        // Mostrar/esconder .sobreMim ao entrar/sair da viewport
+        const sobreMimSection = document.querySelector('.sobreMim');
+
+        if (sobreMimSection) {
+            const observer = new IntersectionObserver(
+                (entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            sobreMimSection.classList.add('visible');
+                        } else {
+                            sobreMimSection.classList.remove('visible');
+                        }
+                    });
+                },
+                { threshold: 0.3 }
+            );
+            observer.observe(sobreMimSection);
+        }
+
+        // Header transparente no topo
+        const header = document.querySelector("header");
+
+        setInterval(() => {
+            if (window.scrollY === 0) {
+                header.style.background = "transparent";
+            } else {
+                header.style.background = "linear-gradient(rgb(1 1 9) 70%, rgba(0, 0, 0, 0))";
+            }
+        }, 1000);
+
+    </script>
+
+</body>
+</html>
